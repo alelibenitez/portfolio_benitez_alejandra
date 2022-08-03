@@ -66,7 +66,6 @@
 
 .headerEnlace{
     text-decoration: none;
-
 }
 
 h1{
@@ -140,6 +139,8 @@ h1{
     text-align: center;
 }
 
+
+
 h2{
     background-color: #322828;
     font-family: 'Roboto', sans-serif;
@@ -148,8 +149,9 @@ h2{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    font-size:20px; 
+    font-size:20px;    
 }
+
 
 h3{
     text-align: center;
@@ -261,6 +263,7 @@ h3{
     border-radius: 5px;
 }
 
+
 /*Estilos para el Footer*/
 
 .footer{
@@ -281,14 +284,23 @@ h3{
     margin: 10px;
 }
 
+
+
 .footerFlex img{
     margin:0px 10px;
     width: 40px;
     height: 40px;
 }
 
+.footerFlex img:hover{
+    height: 50px;
+    width: 50px;
+}
+
+
 .footerFlex small{
     display: flex;
+    margin-top: 15px ;
     margin-bottom: 15px;
     font-family: 'Heebo', sans-serif;
     color: #bbadad;
@@ -744,7 +756,7 @@ h3{
 }  
 }
 
-
+/*Desafío animaciones: animar nombre (Alejandra Benítez) e íconos de redes sociales */
 
 
 
