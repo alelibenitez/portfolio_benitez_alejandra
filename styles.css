@@ -194,6 +194,22 @@ h3{
     margin-bottom: 20px;
 }
 
+.logo{
+    animation: movimiento 2s linear infinite;
+}
+
+@keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
 /*Estilos para Section Habilidades*/
 
 .habilidadesImg {
