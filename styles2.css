@@ -62,6 +62,21 @@
     align-items: center;
     padding: 5px;
     border-bottom: solid 3px #04c2c9;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.color{
+    color: whitesmoke;
+}
+
+.color:hover{
+    filter:brightness(130%);
+    color: #0D948C;
+}
+
+.color-menu-ham{
+    color: #FFFFFF;
 }
 
 .headerEnlace{
@@ -184,7 +199,7 @@ h3{
     filter:brightness(130%);
 }
 
-.proyectos img{
+/*.proyectos img{
     align-items: center;
     height: 150px;
     width: 200px;
@@ -192,7 +207,7 @@ h3{
     border-radius: 7px;
     border:rgb(170, 151, 151) 1px solid;
     margin-bottom: 20px;
-}
+}*/
 
 .logo{
     animation: movimiento 2s linear infinite;
@@ -526,6 +541,12 @@ h3{
         "proy logo"
         "proy logo" 
         "proy logo";
+    }
+
+    .imagenProy{
+        width:100px;
+        height:100px;
+        object-fit: cover;
     }
 
     h2{
