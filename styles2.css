@@ -66,46 +66,32 @@
     
 }
 
-.color{
-    color: whitesmoke;
-}
 
-.color:hover{
-    filter:brightness(130%);
-    color: #0D948C;
-}
-
-.color-menu-ham{
-    color: #FFFFFF;
-}
-
-.headerEnlace{
-    text-decoration: none;
-}
-
-h1{
+.headerNombre{
     font-family: 'Heebo', sans-serif;
     color: whitesmoke;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 30px;
     padding: 5px;
+    text-decoration: none;
 }
 
-.nav li{
-    list-style-type: none;
-    margin: 10px;
+.headerNombre:hover{
+    color: whitesmoke;
 }
-.nav a{
+
+.headerEnlaces{
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight:550;
 }
 
-.nav a:hover{
+.headerEnlaces:hover{
     filter:brightness(130%);
     color: #0D948C;
 }
+
 
 /*Estilos para el main*/
 
