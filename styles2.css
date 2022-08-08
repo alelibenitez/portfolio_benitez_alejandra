@@ -100,7 +100,12 @@
 }
 
 
+
 .mainInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 25px;
 }
 
@@ -125,6 +130,7 @@
     font-weight: 700;
 }
 
+
 .boton:hover{
     filter:brightness(130%);
 }
@@ -132,9 +138,29 @@
 .imagen{
     width: 80%;
     max-width: 250px;
+    margin: 30px;
+    transition: all 500ms ease;
+}
+
+.imagen:hover{
+    transform: scale(1.2);
 }
 
 /*Estilos para la Section Proyectos*/
+
+
+.tamano{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 150px;
+   object-fit: cover;
+}
+
+.cards{
+display: flex;
+
+}
 
 .proyectos{
     text-align: center;
