@@ -14,17 +14,26 @@
 <body>
 
     <div class="gridContainer">
-        <header class="header">
-            <a class= "headerEnlace" href="#"><h1>Alejandra Benítez</h1></a>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="./pages/acercademi.html">ACERCA</a></li>
-                    <li><a href="./pages/proyectos.html">PROYECTOS</a></li>
-                    <li><a href="./pages/habilidades.html">HABILIDADES</a></li>
-                    <li><a href="./pages/contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg header ">
+                <div class="container-fluid">
+                  <a class="navbar-brand headerNombre" href="#">Alejandra Benítez</a>
+
+                  <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                      <li class="nav-item "><a class="nav-link active headerEnlaces" href="#">INICIO</a></li>
+                      <li class="nav-item"><a class="nav-link active headerEnlaces" href="./pages/acercademi.html">ACERCA</a></li>
+                      <li class="nav-item"><a class="nav-link active headerEnlaces" href="./pages/proyectos.html">PROYECTOS</a></li>
+                      <li class="nav-item"><a class="nav-link active headerEnlaces" href="./pages/habilidades.html">HABILIDADES</a></li>
+                      <li class="nav-item"><a class="nav-link active headerEnlaces" href="./pages/contacto.html">CONTACTO</a></li>  
+                    </ul>
+                  </div>
+                </div>
+            </nav>    
         </header>
     
         <main class="main">
@@ -33,38 +42,47 @@
                 <button class="boton">CV</button> 
             </div>
                 
-            <div class="mainImg"> 
-                <img class="imagen" src="./images/Ale1.png" alt="Foto Alejandra Benítez"> 
+            <div> 
+                <img class="imagen" src="./images/Ale.png" alt="Foto Alejandra Benítez"> 
             </div>
         </main>
     
         <section class= "proyectos">
             <h2>Proyectos</h2>
-            <div class="gridProyectos">
-                    <div class="proy">
-                        <h3>Fashion Like</h3>
-                        <p class="parrafoProy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia aliquam amet at temporibus debitis perferendis architecto aperiam, itaque officiis reprehenderit voluptate in aliquid quaerat odit deleniti magnam libero. Aspernatur.</p>
-                        <button class="botonProy">VER</button>
+
+            <div class=" container row justify-content-between align-items-center  mt-5 mb-5">
+
+                <div class="card shadow p-3 col-sm-12 col-md-6 col-lg-4 gap" style="width: 18rem;">
+                    <img src="./images/fashionLike.png" class="card-img-top border" alt="Imagen Fashion Like">
+                    <div class="card-body">
+                      <h3 class="text-capitalize">Fashion Like</h3>
+                      <p class="text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://fashionlike.netlify.app/" class="btn btn-outline-info">Ver</a>
                     </div>
-                    
-                    <div class="logo"> <img src="./images/fashionlike.png" alt="Fashion Like"></div>
-        
-                    <div class="proy">
-                        <h3>Upex</h3>
-                        <p class="parrafoProy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia aliquam amet at temporibus debitis perferendis architecto aperiam, itaque officiis reprehenderit voluptate in aliquid quaerat odit deleniti magnam libero. Aspernatur.</p>
-                        <button class="botonProy">VER</button>
+                </div>
+
+                <div class="card shadow p-3 col-sm-12 col-md-6 col-lg-4 gap" style="width: 18rem;">
+                    <img src="./images/UPEX.png" class="card-img-top border" alt="Imagen Upex">
+                    <div class="card-body">
+                      <h3 class="text-capitalize">Upex</h3>
+                      <p class="text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://drive.google.com/drive/folders/1jGPqNPiNqkKe5GTaU6tMfXmtKMUftgjp?usp=sharing" class="btn btn-outline-info">Ver</a>
                     </div>
-                    <div class="logo"><img src="./images/UPEX1.png" alt="Upex"></div>
-                
-                    <div class="proy">
-                        <h3>Portfolio</h3>
-                        <p class="parrafoProy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia aliquam amet at temporibus debitis perferendis architecto aperiam, itaque officiis reprehenderit voluptate in aliquid quaerat odit deleniti magnam libero. Aspernatur.</p>
-                        <button class="botonProy">VER</button>
+                </div>
+
+                <div class="card shadow p-3 col-sm-12 col-md-6 col-lg-4 gap" style="width: 18rem;">
+                    <img src="./images/portfolio.png" class="card-img-top border" alt="Imagen Portfolio">
+                    <div class="card-body">
+                      <h3 class="text-capitalize">Portfolio</h3>
+                      <p class="text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-outline-info">Ver</a>
                     </div>
-                    <div class="logo"><img src="./images/imgPortfolio.png" alt="Portfolio"></div>
-            
-            </div>
-            
+                </div>
+
+           </div>
+
+
+
         </section>
     
         <Section class="habilidades">

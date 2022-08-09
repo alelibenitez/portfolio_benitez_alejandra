@@ -62,35 +62,36 @@
     align-items: center;
     padding: 5px;
     border-bottom: solid 3px #04c2c9;
+    font-family: 'Heebo', sans-serif;
+    
 }
 
-.headerEnlace{
-    text-decoration: none;
-}
 
-h1{
+.headerNombre{
     font-family: 'Heebo', sans-serif;
     color: whitesmoke;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 30px;
     padding: 5px;
+    text-decoration: none;
 }
 
-.nav li{
-    list-style-type: none;
-    margin: 10px;
+.headerNombre:hover{
+    color: whitesmoke;
 }
-.nav a{
+
+.headerEnlaces{
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight:550;
 }
 
-.nav a:hover{
+.headerEnlaces:hover{
     filter:brightness(130%);
     color: #0D948C;
 }
+
 
 /*Estilos para el main*/
 
@@ -99,7 +100,12 @@ h1{
 }
 
 
+
 .mainInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 25px;
 }
 
@@ -124,6 +130,7 @@ h1{
     font-weight: 700;
 }
 
+
 .boton:hover{
     filter:brightness(130%);
 }
@@ -131,9 +138,29 @@ h1{
 .imagen{
     width: 80%;
     max-width: 250px;
+    margin: 30px;
+    transition: all 500ms ease;
+}
+
+.imagen:hover{
+    transform: scale(1.2);
 }
 
 /*Estilos para la Section Proyectos*/
+
+
+.tamano{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.cards{
+display: flex;
+
+}
 
 .proyectos{
     text-align: center;
@@ -184,7 +211,7 @@ h3{
     filter:brightness(130%);
 }
 
-.proyectos img{
+/*.proyectos img{
     align-items: center;
     height: 150px;
     width: 200px;
@@ -192,7 +219,7 @@ h3{
     border-radius: 7px;
     border:rgb(170, 151, 151) 1px solid;
     margin-bottom: 20px;
-}
+}*/
 
 .logo{
     animation: movimiento 2s linear infinite;
@@ -526,6 +553,12 @@ h3{
         "proy logo"
         "proy logo" 
         "proy logo";
+    }
+
+    .imagenProy{
+        width:100px;
+        height:100px;
+        object-fit: cover;
     }
 
     h2{
