@@ -473,7 +473,7 @@ h3{
 
     /*Estilos para la Section Proyectos*/
 
-    .gridProyectos{
+    /*.gridProyectos{
         display: grid;
         gap: 10px;
         grid-template-columns:1fr 1fr;
@@ -487,7 +487,7 @@ h3{
         width:100px;
         height:100px;
         object-fit: cover;
-    }
+    }*/
 
     h2{
         background-color: #322828;
