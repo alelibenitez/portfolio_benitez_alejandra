@@ -1,5 +1,4 @@
 
-
 /*HEADER*/
 
 .header{
@@ -17,20 +16,20 @@
         font-size: 30px;
         padding: 5px;
         text-decoration: none;
-            .headerEnlaces{
-                text-decoration: none;
-                color: white;
-                font-family: 'Inter', sans-serif;
-                font-weight:map-get($fuentes, quinientoscincuenta);
-                /*&:hover{
-                    filter:brightness(130%);
-                    color: #0D948C;
-                }*/
-            }
-    }    
+        color: whitesmoke;
+                    .headerEnlaces{
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight:map-get($fuentes, quinientoscincuenta);
+                            &:hover{
+                                filter:brightness(130%);
+                                color: #0D948C;
+                            }
+                        
+                    }    
+    }
 }
-
-
 
 /*MAIN*/
 .main{
@@ -49,6 +48,7 @@
             margin: 20px auto;
             font-family: 'Poppins', sans-serif;
             font-size: 20px;
+        }
         .boton{
             background-color: #0D948C;
             color: #ffffff;
@@ -63,11 +63,9 @@
                     filter:brightness(130%);
                 }
             }
-            } 
-        }
-
-
+        } 
     }
+
     .imagen{
         width: 80%;
         max-width: 250px;
@@ -78,6 +76,16 @@
         }
     }
 
+    /*HABILIDADES*/
+
+    .habilidadesImg {
+        display: block;
+        margin: 0px auto 20px auto;
+        width: 300px;
+        height: 300px;
+        border: #04c2c9 solid 5px;
+    }
+    
 
     /*CONTACTO*/
 
@@ -105,7 +113,6 @@
 
     .botonEnviar{
         position: relative;
-        left: 803px;
         margin-bottom: 20px;
         width: 70px;
         height: 35px;
@@ -113,6 +120,7 @@
         font-weight: map-get($fuentes, novecientos);
         background-color: black;
         border-radius: 5px;
+        left: 321px;               
 }
 
     /*FOOTER*/ 
@@ -127,7 +135,7 @@
                 list-style-type: none;
                 margin: 15px;
         }
-        .footerFlex img{
+        .imgRedes{
             margin:0px 10px;
             width: 40px;
             height: 40px;
@@ -144,6 +152,7 @@
 }  
 
 }
+
 
     
 

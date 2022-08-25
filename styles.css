@@ -259,13 +259,13 @@ h3{
     margin: 10px;
 }
 
-.footerFlex img{
+.imgRedes{
     margin:0px 10px;
     width: 40px;
     height: 40px;
 }
 
-.footerFlex img:hover{
+.imgRedes img:hover{
     height: 50px;
     width: 50px;
 }
