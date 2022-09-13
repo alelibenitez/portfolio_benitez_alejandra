@@ -1,4 +1,3 @@
-
 /*HEADER*/
 
 .header{
@@ -74,22 +73,9 @@
         } 
     }
 
-    
+      /*CONTACTO*/
 
-    /*HABILIDADES*/
-
-    .habilidadesImg {
-        display: block;
-        margin: 0px auto 20px auto;
-        width: 300px;
-        height: 300px;
-        border: #04c2c9 solid 5px;
-    }
-    
-
-    /*CONTACTO*/
-
-    .formNombre{
+      .formNombre{
         display: block;
         background-color: $colorformulario;
         border-radius: 5px;
@@ -159,14 +145,3 @@
         }
     }
 }
-
-
-
-
-    
-
-    
-   
-
-   
-

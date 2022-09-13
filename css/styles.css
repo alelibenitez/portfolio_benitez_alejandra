@@ -52,7 +52,7 @@
     /*background-color: rgb(219, 87, 113);*/
 }
 
-/*HEADER*/
+/*Estilos para el Header*/
 
 .header{
     background-color: #372C2C ;
@@ -92,7 +92,7 @@
 }
 
 
-/*MAIN*/
+/*Estilos para el main*/
 
 .main{
     text-align: center;
@@ -170,7 +170,7 @@ h3{
     color: black;
 }
 
-/*HABILIDADES*/
+/*Estilos para Section Habilidades*/
 
 .habilidadesImg {
     display: block;
@@ -180,7 +180,7 @@ h3{
     border: #04c2c9 solid 5px;
 }
 
-/*CONTACTO*/
+/*Estilos para Section Contacto*/
 
 .contacto{
     display: flex;
@@ -239,7 +239,7 @@ h3{
     border-radius: 5px;
 }
 
-/*FOOTER*/
+/*Estilos para el Footer*/
 
 .footer{
     background-color:#372C2C;
@@ -259,13 +259,13 @@ h3{
     margin: 10px;
 }
 
-.imgRedes{
+.footerFlex img{
     margin:0px 10px;
     width: 40px;
     height: 40px;
 }
 
-.imgRedes img:hover{
+.footerFlex img:hover{
     height: 50px;
     width: 50px;
 }
@@ -482,7 +482,6 @@ h3{
         "proy logo" 
         "proy logo";
     }
-
     .imagenProy{
         width:100px;
         height:100px;
@@ -579,8 +578,6 @@ h3{
 
     .footerFlex img{
         margin:0px 20px;
-        width: 30px;
-        height: 30px;
 }
 
     .footerFlex small{
@@ -591,8 +588,3 @@ h3{
         font-size: 18px;
 }  
 }
-
-
-
-
-

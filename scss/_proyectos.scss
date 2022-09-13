@@ -1,4 +1,3 @@
-
 /*HEADER*/
 
 .header{
@@ -74,56 +73,7 @@
         } 
     }
 
-    
-
-    /*HABILIDADES*/
-
-    .habilidadesImg {
-        display: block;
-        margin: 0px auto 20px auto;
-        width: 300px;
-        height: 300px;
-        border: #04c2c9 solid 5px;
-    }
-    
-
-    /*CONTACTO*/
-
-    .formNombre{
-        display: block;
-        background-color: $colorformulario;
-        border-radius: 5px;
-        font-family: 'Heebo', sans-serif;
-        width: 400px;
-        height: 30px;
-        font-weight: map-get($fuentes, seiscientos); 
-        margin: 20px auto 3px auto;              
-}
-
-    .formCorreo{
-        @extend .formNombre;
-        margin: 0px auto 3px auto;               
-}
-
-    .formMje{
-        @extend .formCorreo;
-        height: 200px;
-        color: #FFFFFF;                
-}
-
-    .botonEnviar{
-        position: relative;
-        margin-bottom: 20px;
-        width: 70px;
-        height: 35px;
-        color: #f3eded;
-        font-weight: map-get($fuentes, novecientos);
-        background-color: black;
-        border-radius: 5px;
-        left: 321px;               
-}
-
-    /*FOOTER*/ 
+/*FOOTER*/ 
 
 .footer{
     background-color:$backgroundcolorheaderfooter;
@@ -158,15 +108,4 @@
 
         }
     }
-}
-
-
-
-
-    
-
-    
-   
-
-   
-
+}    
